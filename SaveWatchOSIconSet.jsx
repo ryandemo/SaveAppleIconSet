@@ -1,9 +1,9 @@
 /*
-SaveiOSIconSet.jsx
+SaveWatchOSIconSet.jsx
 Script for use with Adobe Illustrator
 
 Author: Ryan Demo
-Updated for iOS 10 on October 18, 2016
+Updated for watchOS 3 on October 18, 2016
 
 Originally forked from Jeremie Weldin's gist:
 https://gist.github.com/jeremieweldin/577775
@@ -25,36 +25,23 @@ var activeArtboard = app.activeDocument.artboards[app.activeDocument.artboards.g
 
 if (destFolder != null) {
 
-	// iPhone App
-	exportFileToPNG24(60, "Icon-60@1x.png");
-	exportFileToPNG24(120, "Icon-60@2x.png");
-	exportFileToPNG24(180, "Icon-60@3x.png");
+	// Home Screen
+	exportFileToPNG24(80, "Icon-w-All-40@2x.png");  // can also be used for 38mm long look
 
-	// iPad App
-	exportFileToPNG24(76, "Icon-76@1x.png");
-	exportFileToPNG24(152, "Icon-76@2x.png");
+	// Notification Center
+	exportFileToPNG24(48, "Icon-w-38mm-24@2x.png");
+	exportFileToPNG24(55, "Icon-w-42mm-27.5@2x.png");
 
-	// iPad Pro App
-	exportFileToPNG24(167, "Icon-83.5@2x.png");
+	// Short Look
+	exportFileToPNG24(172, "Icon-w-38mm-86@2x.png");
+	exportFileToPNG24(196, "Icon-w-42mm-98@2x.png");
 
-	// iPad Spotlight
-	exportFileToPNG24(40, "Icon-40@1x.png");
-	exportFileToPNG24(80, "Icon-40@2x.png");
-	exportFileToPNG24(120, "Icon-40@3x.png");
+	// Long Look
+	exportFileToPNG24(88, "Icon-w-42mm-44@2x.png");
 
-	// Notifications
-	exportFileToPNG24(20, "Icon-20@1x.png");
-	exportFileToPNG24(40, "Icon-20@2x.png");
-	exportFileToPNG24(60, "Icon-20@3x.png");
-
-	// Settings
-	exportFileToPNG24(29, "Icon-29@1x.png");
-	exportFileToPNG24(58, "Icon-29@2x.png");
-	exportFileToPNG24(87, "Icon-29@3x.png");
-
-	// iTunes Artwork
-	exportFileToPNG24(512, "iTunesArtwork");
-	exportFileToPNG24(1024, "iTunesArtwork@2x");
+	// Companion Settings
+	exportFileToPNG24(58, "Icon-w-All-29@2x.png");
+	exportFileToPNG24(87, "Icon-w-All-29@3x.png");
 
 }
 
