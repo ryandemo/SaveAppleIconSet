@@ -1,0 +1,14 @@
+SaveiOSIconSet.jsx
+Ryan Demo
+Updated for iOS 10 on October 18, 2016
+
+Originally forked from Jeremie Weldin's gist:
+https://gist.github.com/jeremieweldin/577775
+
+
+To use:
+
+1. Close Illustrator
+2. Download script
+3. On Mac, put the script in /Applications/Adobe Illustrator CC/Presets/{your locale}/Scripts/
+4. Run in Illustrator with File > Scripts > SaveiOSIconSet
